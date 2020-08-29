@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplication.ConsoleMessaging", "src\ChatApplication.ConsoleMessaging\ChatApplication.ConsoleMessaging.csproj", "{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibraries", "src\CommonLibraries\CommonLibraries.csproj", "{7E7EEC20-1F14-416E-AFA7-799844B07833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplication.Api", "src\ChatApplication.Api\ChatApplication.Api.csproj", "{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{358EB82D-FF67-4343-AB18-E6DED00E5300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7533E6CB-3611-4A87-B8B7-52E525B7FB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication.ConsoleMessaging.Tests", ".\tests\ChatApplication.ConsoleMessaging.Tests\ChatApplication.ConsoleMessaging.Tests.csproj", "{F4F32069-3B26-4F43-9956-3EC8373CB48C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication.Api.Tests", ".\tests\ChatApplication.Api.Tests\ChatApplication.Api.Tests.csproj", "{DD07736C-CFF8-432D-AA87-0D8F25CB6425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7EEC20-1F14-416E-AFA7-799844B07833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7EEC20-1F14-416E-AFA7-799844B07833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7EEC20-1F14-416E-AFA7-799844B07833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7EEC20-1F14-416E-AFA7-799844B07833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F32069-3B26-4F43-9956-3EC8373CB48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F32069-3B26-4F43-9956-3EC8373CB48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F32069-3B26-4F43-9956-3EC8373CB48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F32069-3B26-4F43-9956-3EC8373CB48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD07736C-CFF8-432D-AA87-0D8F25CB6425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD07736C-CFF8-432D-AA87-0D8F25CB6425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD07736C-CFF8-432D-AA87-0D8F25CB6425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD07736C-CFF8-432D-AA87-0D8F25CB6425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F9DF77E-F9B4-417E-A2BB-EA1C553FEE24} = {358EB82D-FF67-4343-AB18-E6DED00E5300}
+		{7E7EEC20-1F14-416E-AFA7-799844B07833} = {358EB82D-FF67-4343-AB18-E6DED00E5300}
+		{411FDFFD-F7B6-4FD0-883C-00FBCCF8A0CC} = {358EB82D-FF67-4343-AB18-E6DED00E5300}
+		{F4F32069-3B26-4F43-9956-3EC8373CB48C} = {7533E6CB-3611-4A87-B8B7-52E525B7FB4D}
+		{DD07736C-CFF8-432D-AA87-0D8F25CB6425} = {7533E6CB-3611-4A87-B8B7-52E525B7FB4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B6492DB-4B9D-43A4-B295-AF0CBC2C14C8}
+	EndGlobalSection
+EndGlobal
